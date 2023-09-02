@@ -1,3 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ahrensburg.dev/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Cplus'
+theme =["github.com/thorstenkloehn/ahrensburg-themen"]
