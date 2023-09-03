@@ -107,7 +107,7 @@ bool Variablenname  = Richtig oder Falsch;
 In Zeichenketten können mehrere Zeichen gespeichert werden.
 
 ```cpp
-std::string a = "Zeichenkette";
+std::string Variablenname = "Zeichenkette";
 ```
 ## Bedingungen
 
@@ -143,15 +143,12 @@ if (Bedingung) {
 #### umschalten
 Was ist Switch? Switch ist eine Bedingung, die ausgeführt wird, wenn die Bedingung erfüllt ist. Wenn die Bedingung nicht erfüllt ist, wird der Code in default ausgeführt.
 ```cpp
-switch (Variable) {
-    case 1:
+switch (Variablennamen) {
+    case Bedingung:
         // Anweisung 1
         break;
-    case 2:
-        // Anweisung 2
-        break;
     default:
-        // Anweisung 3
+        // Anweisung 2
         break;
 }
 ```
