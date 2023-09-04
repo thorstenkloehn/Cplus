@@ -93,16 +93,40 @@ a %= 5;
 #### Vergleichsoperatoren
 Vergleichsoperatoren werden verwendet, um zwei Werte zu vergleichen.
 
+* a < b // kleiner
+* a>b  größer
+* a<=b kleiner-gleich
+* a>=b  größer-gleich
+* a==b  gleich
+* != ungleich
+
+
 #### Logische Operatoren
 Logische Operatoren werden verwendet, um zwei oder mehr Bedingungen zu kombinieren.
+
+* a&&b und
+* a||b oder
+* a!b nicht
+
 
 #### Bitweise Operatoren
 Bitweise Operatoren werden verwendet, um Operationen auf Bitmuster durchzuführen.
 
+* a&b und
+* a|b oder
+* a^b exklusiv oder
+* ~a nicht
+* a<<b linksverschiebung
+* a>>b rechtsverschiebung
+
+
+
+
 #### Inkrement- und Dekrementoperatoren
 Inkrement- und Dekrementoperatoren werden verwendet, um den Wert einer Variablen um 1 zu erhöhen oder zu verringern.
 
-#### Bedingte Operatoren
-Bedingte Operatoren werden verwendet, um eine Bedingung zu überprüfen, und der Wert der Variablen wird auf der Grundlage der Bedingung zugewiesen.
+* a++ Inkrement
+* a-- Dekrement
+
 
 
