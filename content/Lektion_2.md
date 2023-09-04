@@ -6,7 +6,7 @@ type: "page"
 menu: 
   main:
     name: "Lektion 2"
-    weight: 
+    weight: 3
 ---
 
 # Lektion 2
