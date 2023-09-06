@@ -21,3 +21,40 @@ Ein Eingabestream liest Daten aus einer Quelle, z. B. einer Datei, und stellt si
 
 ### Ausgabestreams
 Ein Ausgabestream schreibt Daten in eine Quelle, z. B. eine Datei. Die Quelle kann auch ein Gerät sein, z. B. die Tastatur oder der Bildschirm.
+### Funktion in C++
+Eine Funktion ist eine Gruppe von Anweisungen, die eine Aufgabe erfüllen. Eine Funktion kann einen Wert zurückgeben. Wenn eine Funktion einen Wert zurückgibt, wird der Wert als Rückgabewert bezeichnet.
+
+### Headrdateien für Funktion erstellen
+#### CMakelists.txt
+```cmake
+cmake_minimum_required(VERSION 3.5)
+project(start)
+add_executable(start main.cpp Game.cpp)
+include_directories(.)
+```
+#### Game.h
+```cpp
+void game();
+```
+#### Game.cpp
+```cpp
+#include <Game.h>
+#include <iostream>
+void game() {
+    std::cout << "Game is running!" << std::endl;
+}
+```
+#### main.cpp
+```cpp
+#include <Game.h>
+int main() {
+    game();
+}
+```
+
+
+
+
+
+
+
