@@ -89,6 +89,28 @@ C++filt ist ein Open-Source-Projekt, das von der Free Software Foundation entwic
 ```bash
 sudo apt-get install c++filt
 ```
+## ctest
+ctest ist ein Open-Source-Projekt, das von der Free Software Foundation entwickelt wurde. Es ist ein Werkzeug zum Testen von C- und C++-Code. Ctest ist ein plattformübergreifendes Tool, das auf den meisten Unix- und Windows-Systemen ausgeführt werden kann.
+
+### Installation bei Ubuntu
+```bash
+sudo apt-get install ctest
+```
+### Gtest
+Gtest ist ein Open-Source-Projekt, das von der Free Software Foundation entwickelt wurde. Es ist ein Werkzeug zum Testen von C- und C++-Code. Gtest ist ein plattformübergreifendes Tool, das auf den meisten Unix- und Windows-Systemen ausgeführt werden kann.
+
+### Installation bei Ubuntu
+```bash
+git clone https://github.com/google/googletest.git
+cd googletest
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+```
+
+
 
 
 
