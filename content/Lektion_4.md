@@ -60,6 +60,33 @@ ctest ist ein Programm, das die Tests ausführt, die mit CMake erstellt wurden. 
 ```cmake
 enable_testing() #  gibt an, dass Tests aktiviert werden sollen.
 
+```
+### Statische Variablen
+Statische Variablen sind Variablen, die nur in der Funktion, in der sie deklariert wurden, sichtbar sind. Sie werden mit dem Schlüsselwort static deklariert.
+```cpp
+static datentype variablenname;
+```
+### C++ Casting
+C++ Casting ist eine Möglichkeit, Variablen von einem Datentyp in einen anderen Datentyp umzuwandeln. Es gibt 4 Arten von C++ Casting:
+```cpp
+static_cast<datentype>(variablenname); //  wandelt eine Variable in einen anderen Datentyp um. Es kann nur zwischen Datentypen umgewandelt werden, die miteinander kompatibel sind.
+```
+### Auto Variablen
+Auto Variablen sind Variablen, deren Datentyp automatisch ermittelt wird. Sie werden mit dem Schlüsselwort auto deklariert.
+```cpp
+auto variablenname = wert; //  ____ Variablen sind Variablen, deren Datentyp automatisch ermittelt wird. Sie werden mit dem Schlüsselwort ____ deklariert.
+```
+
+### Uniform Initialization
+Uniform Initialization ist eine Möglichkeit, Variablen zu initialisieren. Sie wird mit geschweiften Klammern {} durchgeführt.
+```cpp
+auto variablenname = {wert}; //  ____ Initialization ist eine Möglichkeit, Variablen zu initialisieren. Sie wird mit geschweiften Klammern {} durchgeführt.
+```
+
+
+
+
+
 
 
 
