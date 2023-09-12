@@ -82,8 +82,26 @@ Uniform Initialization ist eine Möglichkeit, Variablen zu initialisieren. Sie w
 ```cpp
 auto variablenname = {wert}; //  ____ Initialization ist eine Möglichkeit, Variablen zu initialisieren. Sie wird mit geschweiften Klammern {} durchgeführt.
 ```
+## include Header
+```cpp
+#pragma once // ist Prozessor abhängig und verhindert mehrfaches einbinden der Datei in den Compiler bei Headerdateien
+```
 
+## cmake
+```cmake
+add_library(Bibliothekname Quelle) # Bibliothek erstellen und hinzufügen
+target_link_libraries(Projektname Bibliothekname) # Bibliothek einbinden
+```
 
+## Array
+Arrays sind Variablen, die mehrere Werte speichern können. Sie werden mit eckigen Klammern [] deklariert.
+```cpp
+Datentyp Variablenname[Anzahl]; // Array erstellen
+```
+### Array mit Werten
+```cpp
+Datentyp Variablenname[Anzahl] = {Wert}; // Array mit Werten erstellen
+```
 
 
 
