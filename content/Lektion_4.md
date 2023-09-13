@@ -102,6 +102,46 @@ Datentyp Variablenname[Anzahl]; // Array erstellen
 ```cpp
 Datentyp Variablenname[Anzahl] = {Wert}; // Array mit Werten erstellen
 ```
+### Array mit Werten Anzeigen
+```cpp
+Variablenname[Anzahl]// Array mit Werten anzeigen
+```
+### Array mit Werten ändern
+```cpp
+Variablenname[Anzahl] = Wert; // Array mit Werten ändern
+```
+
+### datei.cpp
+```cpp
+template <typename T> //  gibt an, dass es sich um ein Template handelt. T ist der Name des Templates.
+T Funktionname(T a, T b); //  gibt an, dass es sich um eine Funktion handelt, die zwei Variablen vom Typ T als Parameter hat und eine Variable vom Typ T zurückgibt.
+template double Funktionsname<double>(double a, double b); Eine generische Funktion, die zwei Zahlen addiert und das Ergebnis in Kommazahlen Zahlen zurückgibt.
+template int Funktionsname<<int>(int a, int b); Eine generische Funktion, die zwei Zahlen addiert und das Ergebnis in Ganzahl Zahlen zurückgibt.
+```
+### Headerdatei
+```cpp
+template <typename T> //  gibt an, dass es sich um ein Template handelt. T ist der Name des Templates.
+T Funktionname(T Parameterliste); //  gibt an, dass es sich um eine Funktion handelt, die ein Variablen vom Typ T als Parameter hat und eine Variable vom Typ T zurückgibt.
+```
+
+### cmake Projekt
+```cmake
+project(Projektname LANGUAGES C CXX) # Erstellen des Projekts und Angabe der Programmiersprache C und C++
+```
+### CPP Datei erstellen
+```cpp
+
+int main() {
+    Variablenname[Anzahl] = {Wert}; // Array mit Werten erstellen
+    int Variablenname = sizeof(Variablenname) / sizeof(a[0]); // Array Länge berechnen
+}
+
+```
+
+
+
+
+
 
 
 
