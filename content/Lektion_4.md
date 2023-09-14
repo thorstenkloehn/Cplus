@@ -132,14 +132,14 @@ project(Projektname LANGUAGES C CXX) # Erstellen des Projekts und Angabe der Pro
 ```cpp
 
 int main() {
-    Variablenname[Anzahl] = {Wert}; // Array mit Werten erstellen
-    int Variablenname = sizeof(Variablenname) / sizeof(a[0]); // Array Länge berechnen
+    Variablenname[Anzahl] = {Wert}; // Feld mit Werten erstellen
+    int Variablenname = sizeof(Variablenname) / sizeof(a[0]); // Feld Länge berechnen
 }
 
 ```
 ### char array
 ```cpp
-const char Variablenname[Anzahl] = {Wert}; // Konstanten char array erstellen
+const char Variablenname[Anzahl] = {Wert}; // Konstanten char Feld erstellen
 ```
 
 
