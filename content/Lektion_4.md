@@ -137,6 +137,10 @@ int main() {
 }
 
 ```
+### char array
+```cpp
+const char Variablenname[Anzahl] = {Wert}; // Konstanten char array erstellen
+```
 
 
 
