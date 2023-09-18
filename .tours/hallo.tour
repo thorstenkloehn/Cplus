@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Hallo",
+  "steps": [
+    {
+      "file": "content/_index.md",
+      "description": "Daten eingeben",
+      "line": 7
+    }
+  ]
+}
