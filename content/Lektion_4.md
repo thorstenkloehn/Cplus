@@ -93,20 +93,20 @@ add_library(Bibliothekname Quelle) # Bibliothek erstellen und hinzufügen
 target_link_libraries(Projektname Bibliothekname) # Bibliothek einbinden
 ```
 
-## Array
+## Feld
 Arrays sind Variablen, die mehrere Werte speichern können. Sie werden mit eckigen Klammern [] deklariert.
 ```cpp
-Datentyp Variablenname[Anzahl]; // Array erstellen
+Datentyp Variablenname[Anzahl]; // Feld erstellen
 ```
-### Array mit Werten
+### Felder mit Werten
 ```cpp
-Datentyp Variablenname[Anzahl] = {Wert}; // Array mit Werten erstellen
+Datentyp Variablenname[Anzahl] = {Wert}; // Feld mit Werten erstellen
 ```
-### Array mit Werten Anzeigen
+### Feld mit Werten Anzeigen
 ```cpp
-Variablenname[Anzahl]// Array mit Werten anzeigen
+Variablenname[Anzahl]// Feld mit Werten anzeigen
 ```
-### Array mit Werten ändern
+### Feld mit Werten ändern
 ```cpp
 Variablenname[Anzahl] = Wert; // Array mit Werten ändern
 ```
@@ -137,7 +137,7 @@ int main() {
 }
 
 ```
-### char array
+### char Feld
 ```cpp
 const char Variablenname[Anzahl] = {Wert}; // Konstanten char Feld erstellen
 ```
