@@ -41,6 +41,19 @@ menu:
 ### C++ Cheat Sheet
 * [C++ Cheat Sheet](https://www.programiz.com/cpp-programming/cheat-sheet)
 
+## Cmake
+### Cmake Tutorial
+* [Cmake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+### Cmake Cheat Sheet
+### Cmake Bücher
+* [Cmake Bücher](https://www.amazon.de/s?k=cmake&i=stripbooks&__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_2)
+
+### Cmake Kurse
+* [Cmake Kurse](https://www.udemy.com/topic/cmake/)
+
+
+
+
 
 
 
