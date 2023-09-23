@@ -51,6 +51,31 @@ menu:
 ### Cmake Kurse
 * [Cmake Kurse](https://www.udemy.com/topic/cmake/)
 
+## postgresql Tutorial
+* [postgresql Tutorial](https://www.postgresqltutorial.com/)
+* [postgresql Tutorial](https://www.tutorialspoint.com/postgresql/index.htm)
+* [postgresql Tutorial](https://www.w3schools.com/postgresql/default.asp)
+* [postgresql Tutorial](https://www.postgresqltutorial.com/postgresql-sample-database/)
+
+## postgresql Cheat Sheet
+* [postgresql Cheat Sheet](https://www.postgresqltutorial.com/psql-commands/)
+
+## postgresql Bücher
+* [postgresql Bücher](https://www.amazon.de/s?k=postgresql&i=stripbooks&__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_2)
+
+## postgresql Kurse
+* [postgresql Kurse](https://www.udemy.com/topic/postgresql/)
+* [postgresql Kurse](https://www.udemy.com/topic/postgresql/?price=price-free&sort=popularity)
+
+## postgresql Übungen
+* [postgresql Übungen](https://www.w3resource.com/postgresql-exercises/)
+* [postgresql Übungen](https://www.postgresqltutorial.com/postgresql-sample-database/)
+
+## Postgis Tutorial
+* [Postgis Tutorial](https://postgis.net/workshops/postgis-intro/)
+
+
+
 
 
 

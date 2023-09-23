@@ -62,5 +62,31 @@ Sie können auch einen Wert an eine Variable im Heap zuweisen, indem Sie den Ste
 Datentyp *Zeigername = new Datentyp;
 *Zeigername = Wert;
 ```
+## Zeiger in C++ mit Feld
+Sie können auch einen Zeiger auf ein Feld erstellen, indem Sie den Namen des Feld verwenden. Dies wird in der folgenden Syntax gezeigt:
+```c++
+Datentyp Variablenname[Anzahl]
+Datentyp*Zeigername = Variablenname;
+```
+## Zeiger in C++ mit Feld und Wertzuweisung
+Sie können auch einen Wert an ein Feldnamw zuweisen, indem Sie den Namen des Feldname verwenden. Dies wird in der folgenden Syntax gezeigt:
+```c++
+Datentyp Variablenname[Anzahl];
+Datentyp*Zeigername = Variablenname;
+Zeigername[Anzahl] = Wert;
+```
+
+## Zeiger in C++ löschen
+Sie können einen Zeiger löschen, indem Sie den Befehl delete verwenden. Dies wird in der folgenden Syntax gezeigt:
+```c++
+delete Zeigername;
+```
+## Zeiger in C++ mit Feld löschen
+Sie können einen Zeiger auf ein Feld löschen, indem Sie den Befehl delete verwenden. Dies wird in der folgenden Syntax gezeigt:
+```c++
+delete []Zeigername;
+```
+
+
 
 
