@@ -86,6 +86,58 @@ Sie können einen Zeiger auf ein Feld löschen, indem Sie den Befehl delete verw
 ```c++
 delete []Zeigername;
 ```
+### nullptr in C++
+nullptr ist ein Schlüsselwort, das in C++11 eingeführt wurde. Es wird verwendet, um einen Nullzeiger zu initialisieren oder zu vergleichen. Es kann auch als Ersatz für NULL verwendet werden. Es ist ein Literal vom Typ std::nullptr_t. Es kann in jedem Ausdruck verwendet werden, der einen Zeiger erfordert. Es kann auch in einer if-Anweisung verwendet werden, um zu überprüfen, ob ein Zeiger auf NULL zeigt. Es wird in der folgenden Syntax gezeigt:
+```c++  
+Zeigername=nullptr; // Zeiger auf NULL setzen.
+```
+
+## std::array in C++
+std::array isr eine Containerklasse, die in C++11 eingeführt wurde. Es ist eine Sequenz von Elementen, die in einem Array gespeichert sind. Es ist eine statische Containerklasse, dh die Größe des Arrays zur Kompilierzeit festgelegt wird. Es ist ein Container, der eine feste Größe hat
+```c++
+std::array<Datentyp,Anzahl>Variablenname;
+```
+## std::array in C++ mit Wertzuweisung
+Sie können auch einen Wert an ein Feld zuweisen, indem Sie den Namen des Feldes verwenden. Dies wird in der folgenden Syntax gezeigt:
+```c++
+std::array<Datentyp,Anzahl>Variablenname;
+Variablenname[Anzahl] = Wert;
+```
+## std::array in C++ mit Feld
+Sie können auch einen Zeiger auf ein Feld erstellen, indem Sie den Namen des Feldes verwenden. Dies wird in der folgenden Syntax gezeigt:
+```c++
+std::array<Datentyp,Anzahl>Variablenname;
+Datentyp*Zeigername = Variablenname;
+```
+## std::array in C++ mit Feld und Wertzuweisung
+Sie können auch einen Wert an ein Feld zuweisen, indem Sie den Namen des Feldes verwenden. Dies wird in der folgenden Syntax gezeigt:
+```c++
+std::array<Datentyp,Anzahl>Variablenname;
+Datentyp*Zeigername = Variablenname;
+Zeigername[Anzahl] = Wert;
+```
+
+## std::array in C++ länge
+Sie können die Länge eines std::array mit der Methode size() ermitteln. Dies wird in der folgenden Syntax gezeigt:
+```c++
+std::array<Datentyp,Anzahl>Variablenname;
+Variablenname.size();
+```
+## std::array in C++ löschen
+Sie können einen std::array löschen, indem Sie den Befehl delete verwenden. Dies wird in der folgenden Syntax gezeigt:
+```c++
+delete Variablenname;
+```
+## std::array in C++ mit Feld löschen
+Sie können einen Zeiger auf ein Feld löschen, indem Sie den Befehl delete verwenden. Dies wird in der folgenden Syntax gezeigt:
+```c++
+delete []Variablenname;
+```
+
+
+
+
+
 
 
 
