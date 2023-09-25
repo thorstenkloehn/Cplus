@@ -133,6 +133,29 @@ Sie können einen Zeiger auf ein Feld löschen, indem Sie den Befehl delete verw
 ```c++
 delete []Variablenname;
 ```
+## Funktionen in C++ Parameter mit Zeiger copy
+Sie können einen Zeiger als Parameter an eine Funktion übergeben. Dies wird in der folgenden Syntax gezeigt:
+```c++
+void Funktionsname(Datentyp*Zeigername);
+```
+## Funktionen in C++ Parameter mit Zeiger Refferenc
+Sie können einen Zeiger als Parameter an eine Funktion übergeben. Dies wird in der folgenden Syntax gezeigt:
+```c++
+void Funktionsname(Datentyp&Zeigername);
+```
+
+## Funktionen in C++ Parameter mit std::array copy
+Sie können einen std::array als Parameter an eine Funktion übergeben. Dies wird in der folgenden Syntax gezeigt:
+```c++
+void Funktionsname(std::array<Datentyp,Anzahl>Variablenname);
+```
+## Funktionen in C++ Parameter mit std::array Refferenc
+Sie können einen std::array als Parameter an eine Funktion übergeben. Dies wird in der folgenden Syntax gezeigt:
+```c++
+void Funktionsname(std::array<Datentyp,Anzahl>&Variablenname);
+```
+
+
 
 
 
