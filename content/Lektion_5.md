@@ -155,6 +155,12 @@ Sie können einen std::array als Parameter an eine Funktion übergeben. Dies wir
 void Funktionsname(std::array<Datentyp,Anzahl>&Variablenname);
 ```
 
+## Kommandozeilenargumente in C++
+Sie können Kommandozeilenargumente an ein C++-Programm übergeben. Dies wird in der folgenden Syntax gezeigt:
+```c++
+int main(int argc, char *argv[])
+```
+
 
 
 
