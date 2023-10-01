@@ -95,3 +95,5 @@ Variablenname.pop_back(); // Entfernt das letzte Element des Vektors
 std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
 ```
 
+
+
