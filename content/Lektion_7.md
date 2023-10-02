@@ -90,10 +90,24 @@ std::vector<Datentyp>Variablenname(Anzahl,Wert); // Vektor erstellen mit Anzahl 
 Variablenname.pop_back(); // Entfernt das letzte Element des Vektors
 ```
 ## Vektor Elemente mehrer Wertzuweisungen
+Vektoren können mit mehreren Wertzuweisungen erstellt werden.
 ```c++
 #include <vector> // Vektor Bibliothek
 std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
 ```
-
-
-
+## Vektor Elementen ausgeben
+Vektoren können mit einer for Schleife ausgegeben werden.
+```c++
+#include <vector> // Vektor Bibliothek
+std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+for (auto init : Variablenname) // Für jedes Element im Vektor schleife durchlaufen
+{
+    std::cout << init; // Gibt das Element aus
+}
+```
+## Vektor Data Methode
+```c++
+#include <vector> // Vektor Bibliothek
+std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+std::cout << Variablenname.data(); // Gibt den Zeiger auf das erste Element des Vektors zurück
+```
