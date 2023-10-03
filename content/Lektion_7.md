@@ -106,8 +106,34 @@ for (auto init : Variablenname) // Für jedes Element im Vektor schleife durchla
 }
 ```
 ## Vektor Data Methode
+Vektoren data() Methode gibt den Zeiger auf das erste Element des Vektors zurück.
 ```c++
 #include <vector> // Vektor Bibliothek
 std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
 std::cout << Variablenname.data(); // Gibt den Zeiger auf das erste Element des Vektors zurück
+```
+## Vektor Beginn Methode
+Verktoren begin() Methode gibt den Zeiger auf das erste Element des Vektors zurück.
+```c++
+#include <vector> // Vektor Bibliothek
+std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+std::cout << Variablenname.begin(); // Gibt den Zeiger auf das erste Element des Vektors zurück aus
+```
+## Vektor End Methode
+```c++
+#include <vector> // Vektor Bibliothek
+std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+std::cout << Variablenname.end(); // Gibt den Zeiger auf das letzte Element des Vektors zurück
+```
+## Vektor Front Methode
+```c++
+#include <vector> // Vektor Bibliothek
+std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+std::cout << Variablenname.front(); // Gibt den Wert des ersten Elements des Vektors zurück aus
+```
+## Vektor Back Methode
+```c++
+#include <vector> // Vektor Bibliothek
+std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+std::cout << Variablenname.back(); // Gibt den Wert des letzten Elements des Vektors zurück aus
 ```
