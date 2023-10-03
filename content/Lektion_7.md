@@ -137,3 +137,4 @@ std::cout << Variablenname.front(); // Gibt den Wert des ersten Elements des Vek
 std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
 std::cout << Variablenname.back(); // Gibt den Wert des letzten Elements des Vektors zurück aus
 ```
+
