@@ -137,4 +137,102 @@ std::cout << Variablenname.front(); // Gibt den Wert des ersten Elements des Vek
 std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
 std::cout << Variablenname.back(); // Gibt den Wert des letzten Elements des Vektors zurück aus
 ```
+## Vektor Aufsteigen Sortieren 
+```c++
+#include <vector> // Vektor Bibliothek
+#include <algorithm> // Sortier Bibliothek
+std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+std::sort(Variablenname.begin(), Variablenname.end()); // Sortiert den Vektor aufsteigend
+```
+## Vektor Absteigend Sortieren 
+```c++
+#include <vector> // Vektor Bibliothek
+#include <algorithm> // Sortier Bibliothek
+std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+std::sort(Variablenname.begin(), Variablenname.end(), std::greater<Datentyp>()); // Sortiert den Vektor absteigend
+```
+## Vektor Aufsteigen Sortieren  Funktion
+```c++
+#include <vector> // Vektor Bibliothek
+#include <algorithm> // Sortier Bibliothek
+bool Funktion(Datentyp a, Datentyp b) // Funktion für Sortierung
+{
+    return a < b; // Sortiert aufsteigend
+}
+std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+std::sort(Variablenname.begin(), Variablenname.end(), Funktion); // Sortiert den Vektor aufsteigend
+```
+## Vektor Absteigend Sortieren  Funktion
+```c++
+#include <vector> // Vektor Bibliothek
+#include <algorithm> // Sortier Bibliothek
+bool Funktion(Datentyp a, Datentyp b) // Funktion für Sortierung
+{
+    return a > b; // Sortiert absteigend
+}
+std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+std::sort(Variablenname.begin(), Variablenname.end(), Funktion); // Sortiert den Vektor absteigend
+```
+## Vektor löscht Element Methode
+Erase löscht ein Element aus dem Vektor.
+```c++
+#include <vector> // Vektor Bibliothek
+#include <algorithm> // Sortier Bibliothek
+std::vector<Datentyp>Variablenname{Wert1, Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+Variablenname.erase(Variablenname.begin() + 1); // Löscht das zweite Element aus dem Vektor
+```
+## Vektor löscht Elemente Methode 
+Remove löscht ein Element aus dem Vektor.
+```c++
+#include <vector> // Vektor Bibliothek
+#include <algorithm> // Sortier Bibliothek
+std::vector<Datentyp>Variablenname{Wert1,Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+Variablenname.erase(std::remove(Variablenname.begin(), Variablenname.end(),1)); // Löscht alle Elemente mit dem Wert 1 aus dem Vektor
+```
+## Vektor Range schleife copy
+```c++
+#include <vector> // Vektor Bibliothek
+std::vector<Datentyp>Variablenname{Wert1,Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+for (auto init : Variablenname) // Für jedes Element im Vektor schleife durchlaufen
+{
+    init; // Gibt das Element aus
+}
+```
+## Vektor Range schleife mit Referenz
+```c++
+#include <vector> // Vektor Bibliothek
+
+std::vector<Datentyp>Variablenname{Wert1,Wert2, Wert3}; // Vektor erstellen mit mehreren Wertzuweisungen von 3 Elementen
+for (auto& init : Variablenname) // Für jedes Element im Vektor schleife durchlaufen
+{
+    init; // Gibt das Element aus
+}
+```
+## Datentyp mit einem anderen Namen verknüpft. In C Form 
+typedef ist ein Schlüsselwort, das einen Datentyp mit einem anderen Namen verknüpft.
+```c++
+#include <vector> // Vektor Bibliothek
+typedef std::vector<Datentyp> Vektorname;// Datentyp mit einem anderen Namen verknüpft. In C Form 
+```
+
+## using Datentyp mit einem anderen Namen verknüpft. In C++ Form 
+```c++
+#include <vector> // Vektor Bibliothek
+using Vektorname = std::vector<Datentyp>; // Datentyp mit einem anderen Namen verknüpft. In C++ Form 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
