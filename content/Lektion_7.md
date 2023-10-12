@@ -208,14 +208,7 @@ for (auto& init : Variablenname) // Für jedes Element im Vektor schleife durchl
     init; // Gibt das Element aus
 }
 ```
-## Datentyp mit einem anderen Namen verknüpft. In C Form 
-typedef ist ein Schlüsselwort, das einen Datentyp mit einem anderen Namen verknüpft.
-```c++
-#include <vector> // Vektor Bibliothek
-typedef std::vector<Datentyp> Vektorname;// Datentyp mit einem anderen Namen verknüpft. In C Form 
-```
-
-## using Datentyp mit einem anderen Namen verknüpft. In C++ Form 
+## Datentyp mit einem anderen Namen verknüpft. In C++ Form 
 ```c++
 #include <vector> // Vektor Bibliothek
 using Vektorname = std::vector<Datentyp>; // Datentyp mit einem anderen Namen verknüpft. In C++ Form 
